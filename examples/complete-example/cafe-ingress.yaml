@@ -5,10 +5,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - cafe.example.com
+     - cafe.zettop.com
     secretName: cafe-secret
   rules:
-  - host: cafe.example.com
+  - host: cafe.zettop.com
     http:
       paths:
       - path: /tea
